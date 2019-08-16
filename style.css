@@ -1,0 +1,127 @@
+
+
+.icontemp{
+	font-size: 30px;
+}
+body{
+	background-color: #e6e6e6;
+	min-height: auto;
+
+}
+h4{
+	font-family: 'Cairo', sans-serif;
+	text-align: center;
+}
+.submitform{
+	text-align: center;
+}
+
+.mdl-textfield{
+   max-width: 300px;
+    width: calc(100% - 100px);
+}
+#deletebutton{
+	display: none;
+	margin-bottom: 40px;
+}
+
+.extra{
+	height: 20px;
+}
+.mdl-spinner{
+	display: none;
+}
+.dummy{
+	position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+#splashscreen {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:white;
+    z-index: 9999;
+    display: none;
+   
+  }
+#splash{
+font-family: 'Cairo', sans-serif;
+color:#000;
+position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #263238;
+   color: white;
+   text-align: center;
+}
+#footerlink>a{
+	
+	color: #fff !important;
+	text-decoration: none !important; 
+}
+#footerlink{
+	padding-top: 15px;
+	font-size: 16px;
+	font-family: 'Asap', sans-serif;
+}
+
+#footerlink>a>img{
+	max-width: 20px;
+}
+#footerlink>a>span{
+	vertical-align: middle;
+}
+
+#deletebutton{
+	margin: 0 auto;
+	background-color: #e84e40;
+	color: #fff;
+}
+.heading{
+	color: #FFF;
+	font-size: 20px;
+}
+.info{
+	font-size: 25px;
+	text-align: center;
+	color: #000;
+	margin-top: 60px;
+	
+}
+.inputsubmit{
+  text-align: center;
+}
+header{
+background-color:#FFBB00;
+font-size:2em;
+padding:15px;
+margin-bottom:10px;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+  display: table;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 auto;
+  min-width: 300px;
+  text-align: center;
+}
+
+#testbutton{
+  display: none;
+}
